@@ -1,0 +1,10 @@
+name: terraform-aws-cloudfront-distribution
+cloud: aws          # aws | google | common
+tier: capability          # primitive | capability | blueprint
+maturity: experimental          # experimental | stable | deprecated
+description: CloudFront distribution with S3 and custom origins, ordered behaviours, HTTPS-only viewers and origin access control
+owners: [platform]
+upstream: "terraform-aws-modules/cloudfront/aws 6.7.1"
+pairs_with: terraform-aws-static-site
+registry_name: terraform-aws-cloudfront-distribution
+deprecated: null          # { removal: YYYY-MM-DD, replacement: <repo> }

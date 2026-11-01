@@ -1,0 +1,7 @@
+# One ID per line, each with a justification comment.
+# Distribution access logging is opt-in via logging_bucket, which needs a caller-owned log bucket; the minimal example sets none.
+AWS-0010
+# Origin bucket access logging needs a caller-owned log bucket; callers attach logging outside this module.
+AWS-0089
+# Site content is rebuilt and redeployed from source on every release, so object versions add cost without recovery value.
+AWS-0090
